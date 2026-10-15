@@ -1,0 +1,49 @@
+name=input("Enter name:")
+tamil=int(input("Enter the tamil mark:"))
+english=int(input("Enter the english mark:"))
+maths=int(input("Enter the maths mark:"))
+print("student: ",name)
+total=tamil+english+maths
+print("total:",total)
+print("average: ", total/3)
+
+total_minutes=int(input("Enter the total minutes"))
+print("hour:" ,total_minutes//60)
+print("minutes:" , total_minutes%60)
+
+mark=int(input("Enter the mark:"))
+print(mark >=40)
+
+mark=int(input("enter the mark:"))
+attendance=int(input("enter the attendance:"))
+print(mark >=40 and attendance >=70)
+
+initial_balance=float(input("enter the initial balance:"))
+deposit_amount=float(input("enter the deposit amount:"))
+initial_balance+=deposit_amount
+expense_amount=float(input("enter expense amount:"))
+initial_balance-=expense_amount
+print("final balance :" ,initial_balance)
+
+fruits=["apple" , "mango" , "orange", "banana"]
+fruit_name=(input("enter the fruit namr: "))
+print(fruit_name in fruits)
+
+mark1=[80,90,100]
+mark2=mark1
+mark3=[80,90,100]
+print(mark1 is mark2)
+print(mark1 is not mark3)
+print(mark1 == mark3)
+
+
+
+
+
+
+
+
+
+
+
+

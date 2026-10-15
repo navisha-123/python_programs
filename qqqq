@@ -1,0 +1,1007 @@
+# print("RGCET")
+# name = "mash, nash, prithi"
+# print(name)
+# print("how are you "+name)
+# a=9
+# b=8.9
+# c='v'
+# d='ami'
+# e=True
+# print(type(a))
+# print(type(b))
+# print(type(c))
+# print(type(d))
+# print(type(e))
+# print(100)
+# print(100+200)
+# print("100+200")
+# print("navisha",21,"BME")
+# print("hello")
+# print()
+# print("coding")
+# print("welcome\nto\nRGCET")
+# print("05","10","2026",sep="-")
+# print("biomedical","engineering",sep=",")
+# print("Navisha","Prithi","Madhumitha",sep="  ")
+# print("hello",end=" ")
+# print("Java")
+# x="Hello"
+# y="Placement"
+# print(x+" "+y)
+# print("*"*20)
+
+
+# #task
+
+# print("*"*30)
+# name="         STUDENT PROFILE             "
+# print(name)
+# print("*"*30)
+# print("Name: Arun")
+# print("Age: 21")
+# print("Department: BME")
+# print("Skills: Python"," C",sep=",")
+# print("Total Marks: 270")
+# print("Average: 90.0")
+# print("*"*30)
+# print("Thank you"," Arun!",sep=",")
+
+
+# name=input("Enter name:")
+# tamil=int(input("Enter the tamil mark:"))
+# english=int(input("Enter the english mark:"))
+# maths=int(input("Enter the maths mark:"))
+# print("student: ",name)
+# total=tamil+english+maths
+# print("total:",total)
+# print("average: ", total/3)
+
+# total_minutes=int(input("Enter the total minutes"))
+# print("hour:" ,total_minutes//60)
+# print("minutes:" , total_minutes%60)
+
+# mark=int(input("Enter the mark:"))
+# print(mark >=40)
+
+# mark=int(input("enter the mark:"))
+# attendance=int(input("enter the attendance:"))
+# print(mark >=40 and attendance >=70)
+
+# initial_balance=float(input("enter the initial balance:"))
+# deposit_amount=float(input("enter the deposit amount:"))
+# initial_balance+=deposit_amount
+# expense_amount=float(input("enter expense amount:"))
+# initial_balance-=expense_amount
+# print("final balance :" ,initial_balance)
+
+# fruits=["apple" , "mango" , "orange", "banana"]
+# fruit_name=(input("enter the fruit namr: "))
+# print(fruit_name in fruits)
+
+# mark1=[80,90,100]
+# mark2=mark1
+# mark3=[80,90,100]
+# print(mark1 is mark2)
+# print(mark1 is not mark3)
+# print(mark1 == mark3)
+
+
+
+#BITWISE OPERATORS
+
+# a=12
+# b=14
+
+#bitwise and
+# c=a&b
+# print(c)
+
+#bitwise or
+# d=a|b
+# print(d)
+
+#bitwise xor
+# e=a^b
+# print(e)
+
+#bitwise left shift
+# f=a<<b
+# print(f)
+
+#bitwise right shift
+# g=a>>b
+# print(g)
+
+# m = int(input("enter the number : "))
+# if m%2==0:
+#     print("the number is even")
+# else:
+#     print("the number is odd")
+
+#odd or even
+# num=int(input("Enter your number: "))
+# if num%2==0:
+#     print("the num is even")
+# else:
+#     print("the num is odd")
+
+#grade calculator
+
+# mark=int(input())
+# if mark>=90 and mark<=100:
+#     print("A")
+# elif mark>=75 and mark<=89:
+#     print("B")
+# elif mark>=60 and mark<=74:
+#     print("C")
+# elif mark>=40 and mark<=59:
+#     print("D")
+# else:
+#     print("FAIL") 
+
+
+
+#temperature finder
+# temperature = float(input("Enter the temperature: "))
+# if temperature<20:
+#     print("COLD")
+# elif temperature>=20 and temperature<30:
+#     print("PLEASANT")
+# elif temperature>=30 and temperature<40:
+#     print("HOT")
+# else:
+#     print("VERY HOT")
+
+
+# if num1<num2:
+#     if num1>num3:
+#         print("Num3 is greater")
+#     else:
+#         print("Num3 is greater")
+# else:
+#     if num2>num3:
+#         print("Num2 is greater")
+#     else:
+#         print("Num3 is bigger")
+
+#discount
+
+# bill =(int(input("Enter the purchase amount: ")))
+# if bill>=5000:
+#     discount_percentage = 20
+#     print("THE DISCOUNT is 20%")
+# elif bill>=2000 and bill<=4999:
+#     discount_percentage = 10
+#     print("THE DISCOUNT is 10%")
+# else:
+#     print("NO DISCOUNT")
+
+# discount_amount = bill * discount_percentage / 100
+# print("Discount Amount:", discount_percentage)
+# final_amount = bill - discount_amount
+# print("Final Payable Amount:", final_amount)
+
+
+#match case
+
+# food=int(input("ENter your choice of food: "))
+# match food:
+#     case 1: print("Idli")
+#     case 2: print("Dosa")
+#     case 3: print("Pongal")
+#     case 4: print("mini idli")
+#     case _:print("Food not avaliable")
+
+# for i in range(10):
+#     print("hello madhu")
+
+
+# for i in range (1,11):
+#     print(i)
+
+# for i in range (1,101,3):
+#     print(i,end=" ")
+
+# print()
+# for i in range (5,0,-1):
+#     print(i)
+
+#for loop
+# num=int(input())
+# sum=0
+# for i in range(1,num+1):
+#     sum=sum+i
+# print(sum)
+
+# num1=int(input())
+# num2=int(input())
+# total=0
+# for i in range(num1,num2+1):
+#     if i%2==0:
+#         total=total+i
+# print(total)
+
+#multiplication table
+# num=int(input())
+# for i in range (1,11):
+#     print(i,"X",num,"=",num*i)
+
+#factorial numbers
+
+# num=int(input())
+# fact=1
+# for i in range(num,0,-1):
+#     fact=fact*i
+#     print(i,end=" ")
+#     if i!=1:
+#         print("*",end=" ")
+# print("=",fact)
+
+#prime number
+
+# num=int(input("Enter your number: "))
+# count=0
+# for i in range(1,num+1):
+#     if num%i==0:
+#         count+=1
+# if count==2:
+#     print(num,"is a prime number")
+# else:
+#     print(num,"is not a prime number")
+
+#while loop
+
+# num=int(input("Enter your number: "))
+# digits=0
+# total=0
+# while num!=0:
+#     rem=num%10
+#     digits+=1
+#     num=num//10
+
+# print("The total number of digits is: ",digits)
+# print("sum of digits: ",total)
+
+# num=int(input("Enter your number: "))
+# while not (num>=0 and num<=9):
+#     sums=0
+#     while num!=0:
+#         rem=num%10
+#         sums+=rem
+#         num=num//10
+#     nums=sums
+# else:
+#     print(num)
+
+# num=int(input())
+# digits=0
+# temp=num
+# temp1=num
+# while num!=0:
+#     rem=num%10
+#     digits+=1
+#     num=num//10
+# sums=0
+# while temp!=0:
+#     rem=temp%10
+#     sums=sums+rem**digits
+#     temp=temp//10
+# if sums==temp1:
+#     print("Armstrong number")
+# else:
+#     print("Not an Armstrong number")
+
+#loop control statements
+
+# for i in range(1,21):
+#     if i==16:
+#         break
+#     print(i,end=" ")
+# print()
+# for i in range(1,6):
+#     if i==3:
+#         continue
+#     print(i,end=" ")
+
+#ist- ordered, mutable collection of elements and allow duplicate
+
+# numbers=[1,2,3,4,5]
+# names=["madhumitha","mash","mace"]
+# mixed=[10,2.3,6,"k","madhu"]
+# print(numbers)
+# print(names)
+# print(mixed)
+# print(numbers[0])
+# print(numbers[3])
+# print(numbers[1])
+# print(numbers[-1])
+# print(numbers[-2])
+# print(numbers[-5])
+# numbers[2]=400
+# print(numbers)
+
+
+# num=[]
+# n=int(input())
+# for i in range(n):
+#     value=int(input())
+#     num.append(value)
+# print(num)
+
+# arr=[1,2,3,4,5]
+# for value in arr:    #for each loop.
+#     print(value,end=" ")
+
+# print()
+
+# i=0 #2<5
+# while i<len(arr):
+#     print(arr[i],end=" ")
+#     i+=1
+
+# numbers=[11,12,13,14]
+# print(numbers)
+# numbers.append(15)
+# numbers.append(16)
+# print(numbers)
+# numbers.insert(0,100)
+# print(numbers)
+# nums=[10,20,10,10]
+# nums.remove(10)  #remove first matching element
+# print(nums)
+# nums.pop()  #remove last element
+# print(nums)
+# nums.append(60)
+# nums.append(70)
+# nums.append(80)
+# print(nums)
+# nums.clear()
+# print(nums)
+
+#list slicing
+
+# arr=[10,20,30,40,50,60]   #list[start:stop:step]
+# print(arr[1:5])
+# print(arr[:3])
+# print(arr[3:])
+# print(arr[::2])
+
+# arr1=[10,20,30,20,50]
+# print(30 in arr1)
+# print(90 in arr1)
+# print(arr1.index(20))
+# print(arr1.count(20))
+# print(arr1.count(90))
+
+
+#sort()
+# arr2=[10,30,50,200,4000,85]
+# arr2.sort()
+# print(arr2)
+# arr2.sort(reverse=True)
+# print(arr2)
+
+
+# arr3=[10,30,50,200,40]
+# arr3.reverse()
+# print(arr3)
+
+# arr4=[10,30,50,200,40]
+# print(len(arr4))
+# print(sum(arr4))
+# print(min(arr4))
+# print(max(arr4))
+
+# nums=[]
+# pos=ng=zero=0
+# n=int(input())
+# for i in range(n):
+#     value=int(input())
+#     nums.append(value)
+# for value in nums:
+#     if value < 0:
+#         neg+=1
+#     elif value > 0:
+#         pos+=1
+#     else:
+#         zero+=1
+# print("List values: ",nums)
+# print("Pos count: ",pos)
+# print("NEg count: ",neg)
+# print("Zeros count: ",zero)
+
+#tuple ordered, immutable allow duplicates
+#from print import print
+
+
+# numbers=(10,20,30,40)
+# print(numbers)
+# print(type(numbers))
+# arr=(5,)
+# print(type(arr))
+# print(numbers[2])
+# print(numbers[-1])
+# print(numbers[1:4])
+
+# for values in numbers:
+#     print(values,end=" ")
+# print()
+# arr2=(10,20,30,20)
+# print(arr2.count(20))
+# print(arr2.index(30))
+# print(len(arr2))
+# print(sum(arr2))
+# print(min(arr2))
+
+
+# #tuple task
+
+# # marks=(85,35,60,28,90,40)
+# # for value in marks:
+# #     if value>=40:
+# #         print(value,"Pass")
+# #     else:
+# #         print(value,"Fail")
+
+# # marks=(85,35,60,28,90,40)
+# # pass_count=fail_count=0
+# # for value in marks:
+# #     if value>=40:
+# #         pass_count+=1
+# #     else:
+# #         fail_count+=1
+# # print("PASSED STUDENTS: ",pass_count)
+# # print("FAILED STUDENTS: ",fail_count)
+
+# # set- unordered mutable and no duplicates
+# numbers={45,67,89,90}
+# print(numbers)
+# names={"madhu","mace","mash"}
+# print(names)
+# empty_set=set()
+# empty_set={5,6,7}
+# print(empty_set)
+# nums={10,20,30,20,30,10}
+# print(nums)
+# print(len(nums))
+
+# list_1=[10,20,30,20,30,50,10]
+# unique_set=set(list_1)
+# print(unique_set)
+
+# nums_1={10,20,30}
+# nums_1.add(40)
+# print(nums_1)
+# nums_1.remove(20)
+# print(nums_1)
+# # nums_1.remove(150)
+# # print(nums_1)
+# nums_1.discard(40)
+# print(nums_1)
+# nums_1.discard(140)
+# print(nums_1)
+# for value in nums_1:
+#     print(value,end=" ")
+
+# a={1,2,3}
+# b={3,4,5}
+# print()
+# print(a.union(b))
+# print(a.intersection(b))
+# print(a.difference(b))
+
+# a={10,20}
+# b={10,20,30,40}
+# c={50,60}
+# print()
+# print(a.issubset(b))
+# print(b.issubset(a))
+# print(a.isdisjoint(b))
+# print(b.isdisjoint(c))
+
+#dict- mutable
+
+# student_1={
+#     "Name":"Madhumitha",
+#     "Age":20,
+#     "Mark":430,
+#     "Department":"BME"
+
+# }
+
+# print(student_1)
+# print(student_1["Name"])
+# print(student_1["Mark"])
+# # print(student_1["City"])
+# print(student_1.get("Age"))
+# print(student_1("City","Not Avaliable"))
+# student_1["Mark"]=499
+# print(student_1)
+# student_1["City"]="Pondy"
+# print(student_1)
+# student_1.pop("age")
+# print(student_1)
+
+# for key,value in student_1.items():
+#     print(key,":",value)
+
+
+# product_name={
+#     "Name":"Keyboard",
+#     "Price":500,
+#     "Stock":10
+
+# }
+# print(product_name)
+# product_name["Price"]=650
+# print(product_name)
+# product_name["brand"]="Logitech"
+# print(product_name)
+
+# for key,value in product_name.items():
+#     print(key," :",value)
+
+#immutable collection of characters
+
+# name="madhu"
+# course="python"
+# print(name)
+# print(course)
+# print(type(name))
+# print(type(course))
+# print(course[0])
+# print(course[1])
+# print(course[-1])
+# #pyt
+# print(course[0:3])
+# #thon
+# print(course[2:1])
+# #pyth
+# print(course[0:4])
+# #nohtyp
+# print(course[::-1])
+
+# text="Python"   #1000
+# text="j"+text[1:] #2000
+# print(text)
+
+# print(len(text))
+
+# for value in text:
+#     print(value,end=" ")
+# print()
+# text_1="Hello Python"
+# print(text_1.upper())
+# print(text_1.lower())
+# print(text_1.replace("Python","Java","C","C++"))
+# print(text_1)
+# print(text_1.count('o'))
+# print(text_1.find("Python"))
+# print(text_1.startswith("Hello"))
+# print(text_1.endswith("Python"))
+
+# text_2="                         Madhumitha Kalaivendan                   "
+# print(text_2.strip())
+
+# text_3="C C++ Java Python"
+# print(text_3)
+# courses=text_3.split()
+# print(courses)
+
+# text_4=["C","C++","java","python"]
+# text_5=" ".join(text_4)
+# print(text_5)
+
+#task
+
+# word=input("Enter the word: ").lower()
+# if word==word[::-1]:
+#     print("Palindrome")
+# else:
+#     print("Not a Palindrome")
+
+#functions
+
+# def greet():
+#     print("Good morning folks")
+
+# def addition(a,b):
+#     print(a+b)
+
+# def multiplication(a,b):
+#     return a*b
+
+# greet()
+# greet()
+
+# addition(3,4)    #method with arguments or parameters
+# addition(1,20)
+
+# result=multiplication(8,9)     #methods with return type
+# print(result)
+
+# def fun_square(num):
+#     return num*num
+
+# num = int(input("Enter your number: "))
+
+# result = fun_square(num)
+
+# print("Square = ", result)
+
+#variables - local and global
+
+# def show():
+#     message="HEllo"    #Local variable
+#     print(message)
+# show()
+
+# text="Madhumitha"       #global variable
+# def greet():
+#     print("Hello",text)
+
+# greet()
+# print("hi",text)
+
+#Lamba function - a lambda function is a small anonymous function containing a single expression
+#syntax 
+# lambda arguments:expression
+
+
+# square=lambda n:n*n
+# n=int(input())
+# result=square(n)
+# print(result)
+
+# addition=lambda a,b:a+b
+# total=addition(4,5)
+# print(total)
+
+
+# numbers = [1, 2, 3, 4, 5]
+# cubed = list(map(lambda x: x**3, numbers))
+# print("Cube list:", cubed)
+# print("____________________________________________")
+
+
+#3recursionn - function calling itself
+
+# def greet(n):
+#     if n==0:
+#         return
+#     print("Hello madhu")
+#     greet(n-1)
+# greet(5)
+# print()
+
+# def printnum(a):
+#     if a==11:
+#         return
+#     print(a,end=" ")
+#     printnum(a+1)
+
+# printnum(1)
+
+# def factorial(num):
+#     if num==1:
+#         return 1
+#     return num*factorial(num-1)
+
+# num=int(input("Enter your number; "))
+# result=factorial(num)
+# print(result)
+
+#modules and packages
+
+# import math
+# import Calculator
+# print(math.sqrt(25))
+# print(math.factorial)
+# print(math.pi)
+
+# result=Calculator.add(5,6)
+# print(result)
+
+#exceptional handeling 
+
+# try:
+#     a=int(input("Enter your number: "))
+#     b=int(input("Enter your number: "))
+#     print(a//b)
+# except ValueError:
+#     print("Please enter interger only")
+# except ZeroDivisionError:
+#     print("Cannot divide by zero")
+# finally:
+#     print("Something")
+
+#oops
+
+# class Student:
+#     Name="Madhumitha"
+#     Age=20
+#     def marks(self):
+#         print("English: 90, Physics: 85")
+
+# s1=Student()
+# print(s1.name)
+# print(s1.age)
+# s1.marks
+
+# class student:
+#     name="Unknown"
+#     mark=0
+
+#     def display(self):
+#         print("Name: ",self.name)
+#         print("Mark: ",self.mark)
+
+# s1=student()
+# s1.name="Madhu"
+# s1.mark=90
+# s2=student()
+# s2.name="Mash"
+# s2.mark=98
+# s3=student()
+# s3.name="Mace"
+# s3.mark=85
+# s1.display()
+# s2.display()
+# s3.display()
+
+
+# class student:
+#     name="Unkonwn"
+#     mark=0
+#     def __init__(self,name,mark):
+#         self.name=name
+#         self.mark=mark
+
+# #def setdetails(self,name,mark):
+#     #self.name=name
+#     #self.mark=mark
+
+#     def display(self):
+#         print("name: ",self.name)
+#         print("mark: ",self.mark)
+
+# s1=student("madhu",89)
+# #s1.setdetails("madhu",67)
+# s1.display()
+
+
+# #inheritance
+# #single innheritance - one parent class adn one child class
+
+# class Device:
+#     def power_on(self):
+#         print("Device switched on")
+# class Phone(Device):
+#     def call(self):
+#         print("making a phone call")
+# samsung=Phone()
+# samsung.call()
+# samsung.power_on()
+
+# #multilevel inheritance grandparent class -> parent claass -> child class
+
+# class Device:
+#     def power_one(self):
+#         print("DEvice switched on")
+# class computer:
+#     def run_program(self):
+#         print("Running a python program")
+# class laptop(computer):
+#     def charge(self):
+#         print("Laptop battery charging")
+
+# asus=laptop()
+# asus.power_on()
+# asus.run_program()
+# asus.charge()
+# print()
+
+# #multiple inhertitance - father class -> mother class -> child class
+
+# class camera:
+#     def take_photo(self):
+#         print("Taking a photo")
+# class musicplayer:
+#     def playmusic(self):
+#         print("Playing music")
+# class smartphone(camera,musicplayer):
+#     def call(self):
+#         print("Making a phone call")
+
+# mi=smartphone()
+# mi.playmusic()
+# mi.take_photo()
+# mi.call()
+
+# #hierarchical inheritance one parent -> multiple child
+# class Device:
+#     def power_on(self):
+#         print("Device switcheed on")
+# class Phone:
+#     def call(self):
+#         print("Making a phone call")
+# class computer(Device):
+#     def run_program(self):
+#         print("running a python program")
+# iphone=Phone()
+# iphone.power_on()
+# iphone.call()
+# hp=computer()
+# hp.power_on()
+# hp.run_program()
+# print()
+
+#polymorphism many forms
+#method overriding
+# class Phone:
+#     def camera(self):
+#         print("taking a normal photo")
+# class smartphone(Phone):
+#     def camera(self):
+#         print("taking a portrait photo")
+
+
+# mi=smartphone()
+# mi.camera()
+# nokia=Phone()
+# nokia.camera()
+# print()
+
+# #encapsulation
+# class Phone:
+#     _battery="30%"
+#     def printbattery(self):
+#         print(self._battery)
+# iphone15=Phone()
+# iphone15.printbattery()
+
+
+#abstraction - hiding the internal details and showing only essential features
+
+# from abc import ABC,abstractmethod
+# class Payment(ABC):
+#     @abstractmethod
+#     def pay(self):
+#         pass
+# class UPI(Payment):
+#     def pay(self):
+#         print("Payment completed using upi")
+# class GPay(Payment):
+#     def pay(self):
+#         print("Payment completed using gpay")
+# class Phonepe(Payment):
+#     def pay(self):
+#         print("Payment completed using phonepe")
+# payment=UPI()
+# payment.pay()
+# payment=GPay()
+# payment.pay()
+# payment=Phonepe()
+# payment.pay()
+
+
+#time and space complexity
+#time complexity describes how the numbr of operations in an algorithm
+#performs grows as its inout size increases
+#it measures growth rather than the exact running time in second
+
+#o(1) - constant time
+# names=["madhu","mash","mace"]
+# print(names[2])
+# print(names[1])
+
+# #linear time -o(n)
+
+# n=100
+# for i in range(n):
+#     print(i,end=" ")
+
+# #quadraticc - o(n^2)
+# num=5
+# for i in range(1,num+1):
+#     for j in range(1,num+1):
+#         print(j,end=" ")
+#     print()
+
+# #Logarithmic time - o(log n)
+# nums=16
+# while nums>1:
+#     print(nums)
+#     nums//2
+
+# #SPACE COMPLEXITY
+# #space complexity describes how the memory required by an algorithm grows as its input size increases
+# # extra space means the additional memory used excluding the existing input
+
+# #O(1)-constant space
+# listone=[1,2,3,4,56,78,9,10]
+# total=0
+# for value in listone:
+#     total+=value
+# print(total)
+
+# #linear space -0(n)
+# listtwo=[1,2,3,4]
+# temp=[]
+# for values in listtwo:
+#     temp.append(values*values)
+# print(temp)
+
+#swapping
+# n=int(input())
+# listone=[]
+# for i in range(n):
+#     data=int(input())
+#     listone.append(data)
+# left=0
+# right=len(listone)-1
+# while left<right:
+#     temp=listone[left]
+#     listone[left]=listone[right]
+#     left+=1
+#     rigth-=1
+# print(listone)
+
+# #with using third variable
+# a=10
+# b=20
+# print(a,",b")
+# c=a
+# a=b
+# b=c
+# print(a,",b")
+
+# #without using third variable
+# c=10
+# d=20
+# print(c,",d")
+# c=c+d
+# d=c-d
+# c=c-d
+# print(c,"",d)
+
+#move zeros
+
+# def movezeros(arr):
+#     j=0
+#     for i in range(len(arr)):
+#         if arr[i]!=0:
+#             arr[j]=arr[i]
+#             j+=1
+#     while j<len(arr):
+#         arr[j]=0
+#         j+=1
+#     print(arr)
+
+# arr=[3,0,5,4,0,0,9]
+# movezeros(arr)
+
+#sorting algorithm and searching algorithm
+
+#bubble sort
+listone=[3,5,7,9,10]
+for i in range(len(listone)-1):
+    for j in range(len(listone)-1-i):
+        if listone[j]>listone[j+1]:
+            temp=listone[j]
+            listone[j]=listone[j+1]
+            listone[j+1]=temp
+print(listone)
+
+#linear search
+listtwo=[85,65,45,25,44]
+find=200
+found=False
+for i in range(len(listtwo)):
+    if listtwo[i]==find:
+        found=True
+        break
+if found:
+    print("Found")
+else:
+    print("Not Found")
